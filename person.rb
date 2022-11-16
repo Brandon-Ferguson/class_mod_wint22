@@ -10,11 +10,3 @@ class Person
     @age += num
   end
 end
-
-bob = Person.new("bob", 46)
-puts bob.name
-puts bob.age
-bob.increase_age(5)
-puts bob.age
-
-jill = Person.new("Jill", 34)
